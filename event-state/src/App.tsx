@@ -1,3 +1,4 @@
+import ButtonEventPatterns from "./ButtonEventPatterns"
 import Counter from "./Counter"
 import NameChanger from "./NameChanger"
 import Paragraph from "./Paragraph"
@@ -9,6 +10,7 @@ function App() {
       <Counter></Counter>
       <NameChanger></NameChanger>
       <Paragraph></Paragraph>
+      <ButtonEventPatterns></ButtonEventPatterns>
     </>
   )
 }
