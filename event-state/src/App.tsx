@@ -1,4 +1,5 @@
 import ButtonEventPatterns from "./ButtonEventPatterns"
+import ClickCounterMessage from "./ClickCounterMessage"
 import ClickMessage from "./ClickMessage"
 import Counter from "./Counter"
 import NameChanger from "./NameChanger"
@@ -13,6 +14,7 @@ function App() {
       <Paragraph></Paragraph>
       <ButtonEventPatterns></ButtonEventPatterns>
       <ClickMessage></ClickMessage>
+      <ClickCounterMessage></ClickCounterMessage>
     </>
   )
 }
