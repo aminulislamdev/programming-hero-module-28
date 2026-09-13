@@ -1,7 +1,7 @@
 import { use } from "react";
 import Task02_FetchUsers from "./Task02_FetchUsers";
 
-import type { IUser } from '../types/users'
+import type { IUser } from '../types/Users'
 
 interface IUserPromise {
   usersApiPromise: Promise<IUser[]>

@@ -1,5 +1,5 @@
 // import { use } from "react";
-import type { IUser } from '../types/users'
+import type { IUser } from '../types/Users'
 // import Task02 from './Task02';
 
 interface ITask02_FetchUsers {

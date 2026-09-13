@@ -1,4 +1,4 @@
-import type { IUser } from '../types/users'
+import type { IUser } from '../types/Users'
 
 interface ITask02 {
   users:IUser
