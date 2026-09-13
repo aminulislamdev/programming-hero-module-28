@@ -1,7 +1,6 @@
 import { Suspense } from "react";
 import ApiBasics from "./tasks/Task01_ApiBasics"
 import User from "./tasks/User"
-// import Task02_FetchUsers from "./tasks/Task02_FetchUsers"
 
 
 async function UsersApiPromise() {
@@ -17,7 +16,7 @@ function App() {
       <Suspense fallback={<p>Loading...</p>}>
         <User usersApiPromise = {UsersApiPromise()}></User>
       </Suspense>
-      {/* <Task02_FetchUsers /> */}
+
       
     </>
   )
